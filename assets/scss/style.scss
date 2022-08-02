@@ -1,0 +1,93 @@
+/*============================
+    CSS Index         
+==============================
+
+    01. Default Css
+        - Heading Default 
+        - Default Class
+        - Breadvrumb 
+        - Preloader   
+        - Scroll top 
+        - Section title Css 
+    02. Section Spacing Css
+    03. container Css
+    04. Header Css 
+        - Navigation Menu Css
+        - Multilevel Submenu Css
+        - Mega Menu Css
+        - Mobile Menu Overlay Css
+    05. Footer Css
+    06. Hero Area Css
+    07. Services Css 
+    08. Services Css 
+    09. Donate Css
+    10. Feature Css
+    11. Counters Css 
+    12. Contact Us Css
+    13. Gallery Css 
+
+
+/*=====  End of CSS Index  ======*/
+@import "tables";
+@import "variabls";
+@import "global/default";
+@import "global/spacing";
+@import "layout/container";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/hero";
+
+@import "elements/service";
+@import "elements/donate";
+@import "elements/feature";
+@import "elements/button";
+@import "elements/counter";
+@import "elements/contact";
+@import "elements/gallery";
+
+.highlight {
+  text-decoration: none;
+  color: #f2b263;
+}
+
+.custom-carousel {
+  text-align: center;
+}
+.VueCarousel-slide img {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.VueCarousel-navigation {
+  &-prev {
+    &:before {
+      content: url("~/assets/images/chevron-left.svg");
+      width: 30px;
+      height: 68px;
+      border-radius: 24px;
+      display: flex;
+      line-height: 24px;
+      align-items: center;
+      justify-content: center;
+      background-color: #333;
+    }
+  }
+  &-next {
+    transform: rotate(180deg);
+    &:before {
+      width: 30px;
+      height: 68px;
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #333;
+      content: url("~/assets/images/chevron-right.svg");
+    }
+  }
+}
+
+.poweredby {
+  max-width: 64px;
+}
