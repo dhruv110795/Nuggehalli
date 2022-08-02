@@ -1,0 +1,25 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/base-header.js": "components/base-header.js",
+    "pages/about-us/index.js": "pages/about-us/index.js",
+    "pages/contact-us/index.js": "pages/contact-us/index.js",
+    "pages/education/index.js": "pages/education/index.js",
+    "pages/events/index.js": "pages/events/index.js",
+    "pages/gallery/index.js": "pages/gallery/index.js",
+    "pages/index.js": "pages/index.js",
+    "pages/media/index.js": "pages/media/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/base-header.js": "components/base-header.js.map",
+    "pages/about-us/index.js": "pages/about-us/index.js.map",
+    "pages/contact-us/index.js": "pages/contact-us/index.js.map",
+    "pages/education/index.js": "pages/education/index.js.map",
+    "pages/events/index.js": "pages/events/index.js.map",
+    "pages/gallery/index.js": "pages/gallery/index.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/media/index.js": "pages/media/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
