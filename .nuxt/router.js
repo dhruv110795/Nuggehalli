@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4bea9fd7 = () => interopDefault(import('..\\pages\\about-us\\index.vue' /* webpackChunkName: "pages/about-us/index" */))
-const _6ea4a72c = () => interopDefault(import('..\\pages\\contact-us\\index.vue' /* webpackChunkName: "pages/contact-us/index" */))
-const _332cdb17 = () => interopDefault(import('..\\pages\\education\\index.vue' /* webpackChunkName: "pages/education/index" */))
-const _1ec06108 = () => interopDefault(import('..\\pages\\events\\index.vue' /* webpackChunkName: "pages/events/index" */))
-const _aa652326 = () => interopDefault(import('..\\pages\\gallery\\index.vue' /* webpackChunkName: "pages/gallery/index" */))
-const _64f7704a = () => interopDefault(import('..\\pages\\media\\index.vue' /* webpackChunkName: "pages/media/index" */))
-const _739c7e96 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _63fc227e = () => interopDefault(import('..\\pages\\about-us\\index.vue' /* webpackChunkName: "pages/about-us/index" */))
+const _222ce8d4 = () => interopDefault(import('..\\pages\\contact-us\\index.vue' /* webpackChunkName: "pages/contact-us/index" */))
+const _18012d26 = () => interopDefault(import('..\\pages\\education\\index.vue' /* webpackChunkName: "pages/education/index" */))
+const _619c5e34 = () => interopDefault(import('..\\pages\\events\\index.vue' /* webpackChunkName: "pages/events/index" */))
+const _c308cb7a = () => interopDefault(import('..\\pages\\gallery\\index.vue' /* webpackChunkName: "pages/gallery/index" */))
+const _69577131 = () => interopDefault(import('..\\pages\\media\\index.vue' /* webpackChunkName: "pages/media/index" */))
+const _92ae67c2 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/about-us",
-    component: _4bea9fd7,
+    component: _63fc227e,
     name: "about-us"
   }, {
     path: "/contact-us",
-    component: _6ea4a72c,
+    component: _222ce8d4,
     name: "contact-us"
   }, {
     path: "/education",
-    component: _332cdb17,
+    component: _18012d26,
     name: "education"
   }, {
     path: "/events",
-    component: _1ec06108,
+    component: _619c5e34,
     name: "events"
   }, {
     path: "/gallery",
-    component: _aa652326,
+    component: _c308cb7a,
     name: "gallery"
   }, {
     path: "/media",
-    component: _64f7704a,
+    component: _69577131,
     name: "media"
   }, {
     path: "/",
-    component: _739c7e96,
+    component: _92ae67c2,
     name: "index"
   }],
 

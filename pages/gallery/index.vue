@@ -5,7 +5,7 @@
         <div class="col-lg-8 ml-auto mr-auto">
           <div class="about-tai-content">
             <div class="section-title-wrap">
-              <h5>Gallery</h5>
+              <h3 class="section-title--two left-style mb-30">Gallery</h3>
             </div>
           </div>
         </div>
@@ -22,7 +22,7 @@
               class="custom-carousel"
             >
               <slide v-for="slides in gallery" :key="slides">
-                <img :src="require(`~/assets/images/gallery/${slides}`)" />
+                <img class="img-fluid" :src="require(`~/assets/images/gallery/${slides}`)" />
               </slide>
             </carousel>
           </div>

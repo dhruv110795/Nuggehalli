@@ -2,50 +2,43 @@
   {
     "name": "about-us",
     "path": "/about-us",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\about-us\\\\index.vue",
-    "chunkName": "pages/about-us/index",
-    "_name": "_4bea9fd7"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\about-us\\\\index.vue",
+    "chunkName": "pages/about-us/index"
   },
   {
     "name": "contact-us",
     "path": "/contact-us",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\contact-us\\\\index.vue",
-    "chunkName": "pages/contact-us/index",
-    "_name": "_6ea4a72c"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\contact-us\\\\index.vue",
+    "chunkName": "pages/contact-us/index"
   },
   {
     "name": "education",
     "path": "/education",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\education\\\\index.vue",
-    "chunkName": "pages/education/index",
-    "_name": "_332cdb17"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\education\\\\index.vue",
+    "chunkName": "pages/education/index"
   },
   {
     "name": "events",
     "path": "/events",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\events\\\\index.vue",
-    "chunkName": "pages/events/index",
-    "_name": "_1ec06108"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\events\\\\index.vue",
+    "chunkName": "pages/events/index"
   },
   {
     "name": "gallery",
     "path": "/gallery",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\gallery\\\\index.vue",
-    "chunkName": "pages/gallery/index",
-    "_name": "_aa652326"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\gallery\\\\index.vue",
+    "chunkName": "pages/gallery/index"
   },
   {
     "name": "media",
     "path": "/media",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\media\\\\index.vue",
-    "chunkName": "pages/media/index",
-    "_name": "_64f7704a"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\media\\\\index.vue",
+    "chunkName": "pages/media/index"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "D:\\\\Work\\\\nuggehalli\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_739c7e96"
+    "component": "C:\\\\Users\\\\Dhruv\\\\Documents\\\\GitHub\\\\Nuggehalli\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

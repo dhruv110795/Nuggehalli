@@ -6,6 +6,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="hero-content text-center">
+              <!-- <video src="~/assets/videos/Temple.mp4" autoplay id="background-image"></video> -->
               <h1 class="text-white">Nuggehalli Sri Lakshmi Narasimha Swamy Seva Samith</h1>
             </div>
           </div>
@@ -14,7 +15,6 @@
     </div>
     <!-- ======== Hero Area End ========== -->
 
-    <!-- ======== Tai About Area Start ========== -->
     <div class="tai-about-area section-space--ptb_120">
       <div class="container-fluid pl-0 pr-0">
         <div class="row no-gutters align-items-center">
@@ -55,9 +55,7 @@
         </div>
       </div>
     </div>
-    <!-- ======== Tai About Area End ========== -->
 
-    <!-- ======== Donation Area Start ========== -->
     <div class="donation-area section-space--pb_120">
       <div class="container">
         <div class="row">
@@ -69,7 +67,6 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <!-- Single Donation Wrap Start -->
             <div class="single-donation-wrap row align-items-center">
               <div class="col-lg-5">
                 <div class="donation-image">
@@ -95,11 +92,9 @@
                 </div>
               </div>
             </div>
-            <!--// Single Donation Wrap End -->
           </div>
 
           <div class="col-lg-12">
-            <!-- Single Donation Wrap Start -->
             <div class="single-donation-wrap row align-items-center">
               <div class="col-lg-5">
                 <div class="donation-image">
@@ -130,11 +125,9 @@
                 </div>
               </div>
             </div>
-            <!--// Single Donation Wrap End -->
           </div>
 
           <div class="col-lg-12">
-            <!-- Single Donation Wrap Start -->
             <div class="single-donation-wrap row align-items-center">
               <div class="col-lg-5">
                 <div class="donation-image">
@@ -162,41 +155,62 @@
                 </div>
               </div>
             </div>
-            <!--// Single Donation Wrap End -->
           </div>
         </div>
       </div>
     </div>
-    <!-- ======== Donation Area End ========== -->
 
-    <!-- ======== Hindu Video Area Start ========== -->
-    <div class="hindu-video-area">
-      <div class="container-fluid container-fluid--cp-100">
-        <div class="hindu-video-bg border-radius-5">
-          <div class="row">
-            <div class="col-lg-12 ml-auto mr-auto">
-              <div class="video-content-wrap text-center">
-                <div class="icon">
-                  <div class="embed-responsive embed-responsive-16by9">
-                    <iframe
-                      class="embed-responsive-item"
-                      src="https://www.youtube.com/embed/GzJ1m3SY47I"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
+    <div class="about-video-area section-space--pb_120">
+      <div class="container">
+        <div class="">
+          <div class="col-lg-12 ml-auto mr-auto">
+            <div class="video-content-wrap text-center">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/GzJ1m3SY47I"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- ========  Hindu Video Area End ========== -->
   </div>
 </template>
 
 <script>
+// import gsap from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// gsap.registerPlugin(ScrollTrigger);
 export default {
   name: "IndexPage"
+  // mounted() {
+  //   const bgVideo = document.querySelector("#background-image");
+  //   bgVideo.currentTime = 0;
+  //   gsap.to("#background-image", {
+  //     currentTime: bgVideo.duration,
+  //     scrollTrigger: {
+  //       trigger: "#background-image",
+  //       markers: true,
+  //       scrub: true,
+  //       start: ".site-wrapper-reveal",
+  //       end: "100%"
+  //     }
+  //   });
+
+  // const gsap = this.$gsap;
+  // const bgVideo = document.querySelector("#background-image");
+  // bgVideo.currentTime = 30;
+  // gsap.to("#background-image", {
+  //   currentTime: 40,
+  //   scrollTrigger: {
+  //     trigger: "#background-image",
+  //     markers: true,
+  //     scrub: true
+  //   }
+  // });
+  // }
 };
 </script>

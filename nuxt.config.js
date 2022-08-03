@@ -27,7 +27,13 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [],
+  buildModules: ["nuxt-gsap-module"],
+  gsap: {
+    extraPlugins: {
+      scrollTo: true,
+      scrollTrigger: true
+    }
+  },
 
   bootstrapVue: {
     bootstrapCSS: true,

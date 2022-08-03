@@ -12,9 +12,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_cf548b50 from 'nuxt_plugin_plugin_cf548b50' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_bootstrapvue_368fb4ac from 'nuxt_plugin_bootstrapvue_368fb4ac' // Source: .\\bootstrap-vue.js (mode: 'all')
-import nuxt_plugin_axios_e3601b0a from 'nuxt_plugin_axios_e3601b0a' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_08907da4 from 'nuxt_plugin_plugin_08907da4' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_bootstrapvue_22ab0780 from 'nuxt_plugin_bootstrapvue_22ab0780' // Source: .\\bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_axios_4a150a51 from 'nuxt_plugin_axios_4a150a51' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_gsapModule_3da04da0 from 'nuxt_plugin_gsapModule_3da04da0' // Source: .\\gsapModule.js (mode: 'all')
 import nuxt_plugin_vuecarouselclient_7557b44a from 'nuxt_plugin_vuecarouselclient_7557b44a' // Source: ..\\plugins\\vue-carousel.client.js (mode: 'client')
 import nuxt_plugin_fontawesome_4e2e0728 from 'nuxt_plugin_fontawesome_4e2e0728' // Source: ..\\plugins\\font-awesome.js (mode: 'all')
 
@@ -180,16 +181,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_cf548b50 === 'function') {
-    await nuxt_plugin_plugin_cf548b50(app.context, inject)
+  if (typeof nuxt_plugin_plugin_08907da4 === 'function') {
+    await nuxt_plugin_plugin_08907da4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_bootstrapvue_368fb4ac === 'function') {
-    await nuxt_plugin_bootstrapvue_368fb4ac(app.context, inject)
+  if (typeof nuxt_plugin_bootstrapvue_22ab0780 === 'function') {
+    await nuxt_plugin_bootstrapvue_22ab0780(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_e3601b0a === 'function') {
-    await nuxt_plugin_axios_e3601b0a(app.context, inject)
+  if (typeof nuxt_plugin_axios_4a150a51 === 'function') {
+    await nuxt_plugin_axios_4a150a51(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_gsapModule_3da04da0 === 'function') {
+    await nuxt_plugin_gsapModule_3da04da0(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuecarouselclient_7557b44a === 'function') {

@@ -81,25 +81,31 @@
           <nav class="offcanvas-navigation">
             <ul>
               <li class="has-children">
-                <nuxt-link to="/"><span>Home</span></nuxt-link>
+                <nuxt-link to="/" @click.native="closeModal"><span>Home</span></nuxt-link>
               </li>
               <li class="has-children">
-                <nuxt-link to="/about-us"><span>About</span></nuxt-link>
+                <nuxt-link to="/about-us" @click.native="closeModal"><span>About</span></nuxt-link>
               </li>
               <li class="has-children">
-                <nuxt-link to="/events"><span>News & Events</span></nuxt-link>
+                <nuxt-link to="/events" @click.native="closeModal"
+                  ><span>News & Events</span></nuxt-link
+                >
               </li>
               <li class="has-children">
-                <nuxt-link to="/education"><span>Education</span></nuxt-link>
+                <nuxt-link to="/education" @click.native="closeModal"
+                  ><span>Education</span></nuxt-link
+                >
               </li>
               <li class="has-children">
-                <nuxt-link to="/media"><span>Media</span></nuxt-link>
+                <nuxt-link to="/media" @click.native="closeModal"><span>Media</span></nuxt-link>
               </li>
               <li class="has-children">
-                <nuxt-link to="/gallery"><span>Gallery</span></nuxt-link>
+                <nuxt-link to="/gallery" @click.native="closeModal"><span>Gallery</span></nuxt-link>
               </li>
               <li class="has-children">
-                <nuxt-link to="/contact-us"><span>Contact Us</span></nuxt-link>
+                <nuxt-link to="/contact-us" @click.native="closeModal"
+                  ><span>Contact Us</span></nuxt-link
+                >
               </li>
             </ul>
           </nav>
@@ -140,12 +146,13 @@ export default {
   methods: {
     mobileViewNavBar(text) {
       if (text == "open") {
-        console.log("Open");
         document.getElementById("mobile-menu-overlay").classList.add("active");
       } else {
-        console.log("Close");
-        document.getElementById("mobile-menu-overlay").classList.remove("active");
+        this.closeModal();
       }
+    },
+    closeModal() {
+      document.getElementById("mobile-menu-overlay").classList.remove("active");
     }
   }
 };

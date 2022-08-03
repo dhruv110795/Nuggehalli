@@ -1,4 +1,4 @@
-export const BaseHeader = () => import('../..\\components\\BaseHeader.vue' /* webpackChunkName: "components/base-header" */).then(c => wrapFunctional(c.default || c))
+export { default as BaseHeader } from '../..\\components\\BaseHeader.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

@@ -6,8 +6,7 @@
           <div class="col-lg-8 ml-auto mr-auto">
             <div class="about-tai-content">
               <div class="section-title-wrap">
-                <h3 class="section-title--two left-style mb-30">Media</h3>
-                <h5>Karmaveera November 25, 2018</h5>
+                <h3 class="section-title--two left-style mb-30">Karmaveera November 25, 2018</h3>
               </div>
             </div>
           </div>
@@ -38,7 +37,7 @@
           <div class="col-lg-8 ml-auto mr-auto">
             <div class="about-tai-content">
               <div class="section-title-wrap">
-                <h5>Sri Nrisimha Priya June 2017</h5>
+                <h3 class="section-title--two left-style mb-30">Sri Nrisimha Priya June 2017</h3>
               </div>
             </div>
           </div>
@@ -69,7 +68,7 @@
           <div class="col-lg-8 ml-auto mr-auto">
             <div class="about-tai-content">
               <div class="section-title-wrap">
-                <h5>Prajavani - 18th april 2011</h5>
+                <h3 class="section-title--two left-style mb-30">Prajavani - 18th april 2011</h3>
               </div>
             </div>
           </div>
@@ -86,7 +85,7 @@
                 class="custom-carousel"
               >
                 <slide v-for="(slides, index) in Prajavani" :key="index">
-                  <img :src="require(`~/assets/images/${slides}`)" />
+                  <img class="img-fluid" :src="require(`~/assets/images/${slides}`)" />
                 </slide>
               </carousel>
             </div>

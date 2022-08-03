@@ -125,6 +125,9 @@
           }
         }
       }
+      & > a.nuxt-link-exact-active.nuxt-link-active {
+        color: $theme-color--default;
+      }
     }
   }
 }
